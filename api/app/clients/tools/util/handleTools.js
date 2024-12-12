@@ -8,6 +8,7 @@ const {
   // Basic Tools
   GoogleSearchAPI,
   // Structured Tools
+  OpenWeatherMap,
   DALLE3,
   StructuredSD,
   StructuredACS,
@@ -155,6 +156,7 @@ const loadTools = async ({
   const toolConstructors = {
     calculator: Calculator,
     google: GoogleSearchAPI,
+    openweathermap: OpenWeatherMap,
     wolfram: StructuredWolfram,
     'stable-diffusion': StructuredSD,
     'azure-ai-search': StructuredACS,

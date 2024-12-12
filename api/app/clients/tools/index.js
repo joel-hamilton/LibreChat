@@ -6,6 +6,7 @@ const StructuredWolfram = require('./structured/Wolfram');
 const StructuredACS = require('./structured/AzureAISearch');
 const StructuredSD = require('./structured/StableDiffusion');
 const GoogleSearchAPI = require('./structured/GoogleSearch');
+const OpenWeatherMap = require('./structured/OpenWeatherMap');
 const TraversaalSearch = require('./structured/TraversaalSearch');
 const TavilySearchResults = require('./structured/TavilySearchResults');
 
@@ -16,6 +17,7 @@ module.exports = {
   StructuredSD,
   StructuredACS,
   GoogleSearchAPI,
+  OpenWeatherMap,
   TraversaalSearch,
   StructuredWolfram,
   TavilySearchResults,

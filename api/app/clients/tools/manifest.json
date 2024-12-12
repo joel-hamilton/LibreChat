@@ -31,6 +31,19 @@
     ]
   },
   {
+    "name": "OpenWeatherMap",
+    "pluginKey": "openweathermap",
+    "description": "Get the current weather for a location.",
+    "icon": "",
+    "authConfig": [
+      {
+        "authField": "OPENWEATHERMAP_APP_ID",
+        "label": "OpenWeatherMap App ID",
+        "description": "This is your OpenWeatherMap App ID. For instructions on how to obtain this, see <a href='https://openweathermap.org/appid'>OpenWeather</a>."
+      }
+    ]
+  },
+  {
     "name": "Wolfram",
     "pluginKey": "wolfram",
     "description": "Access computation, math, curated knowledge & real-time data through Wolfram|Alpha and Wolfram Language.",

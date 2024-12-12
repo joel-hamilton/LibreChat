@@ -83,7 +83,7 @@ async function validateDockerRunning() {
       singleCompose ? '-f ./docs/dev/single-compose.yml ' : ''
     }down`;
     console.orange(downCommand);
-    // execSync(downCommand, { stdio: 'inherit' });
+    execSync(downCommand, { stdio: 'inherit' });
     console.purple('Pruning all LibreChat Docker images...');
 
     const imageName = singleCompose ? 'librechat_single' : 'librechat';
